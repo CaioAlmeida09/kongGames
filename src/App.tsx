@@ -1,4 +1,4 @@
-import logo from './assets/perfil.jpg';
+import Logo from './assets/perfil.jpg';
 import { FaHeart } from 'react-icons/fa';
 import { LINKS } from './constants/links';
 import { Badge } from './components/Badge';
@@ -8,7 +8,7 @@ function App() {
     <div className="w-full h-screen flex justify-center items-start p-16 bg-main">
       <main className="w-[350px] h-[533px] flex flex-col justify-start items-center">
         <img
-          src={logo}
+          src={Logo}
           alt="Perfil"
           className="w-[120px] h-[120px] rounded-full border-white border-4"
         />
