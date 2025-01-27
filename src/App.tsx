@@ -14,7 +14,7 @@ function App() {
         />
         <h1 className="text-3xl font-bold text-black mt-6 ">Kong Games</h1>
         <strong className=" text-base text-white mt-2">
-          @Konggamesoficial
+          @konggamesoficial
         </strong>
 
         <section className="mt-8 flex flex-col gap-4">
