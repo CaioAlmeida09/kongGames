@@ -2,6 +2,17 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 export const LINKS = [
   {
+    label: 'Sistema da Kong Games',
+    icon: (
+      <div className="flex items-center gap-1">
+        <div className="bg-black size-4 rounded-full flex justify-center items-center">
+          <p className="font-bold text-[10px] text-[#F96B04]"> K </p>
+        </div>
+      </div>
+    ),
+    to: 'https://app.konggames.com.br/',
+  },
+  {
     label: 'Grupo de Promoções',
     icon: <FaWhatsapp size={20} color="#F96B04" />,
     to: 'https://chat.whatsapp.com/CxQ8ex7VeDFK73g99lAz6k',
